@@ -1,0 +1,46 @@
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: cyan;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.nav-logo {
+    height: 100%;
+    margin-right: auto;
+    transition: 1.5s linear;
+}
+
+.nav-logo:hover {
+    transform: rotate(360deg);
+}
+
+.nav-links {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    padding: 0 20px 0 20px;
+    list-style: none;
+}
+
+.nav-item {
+    border: solid black 3px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 24px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    transition: 0.3s all;
+}
+
+.nav-item:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
