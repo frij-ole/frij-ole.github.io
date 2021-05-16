@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/frij-ole.github.io/static/css/main.65f4b3c3.chunk.css",
-    "main.js": "/frij-ole.github.io/static/js/main.01824181.chunk.js",
-    "main.js.map": "/frij-ole.github.io/static/js/main.01824181.chunk.js.map",
+    "main.css": "/frij-ole.github.io/static/css/main.db53f7ae.chunk.css",
+    "main.js": "/frij-ole.github.io/static/js/main.5e1256e9.chunk.js",
+    "main.js.map": "/frij-ole.github.io/static/js/main.5e1256e9.chunk.js.map",
     "runtime-main.js": "/frij-ole.github.io/static/js/runtime-main.35c5798d.js",
     "runtime-main.js.map": "/frij-ole.github.io/static/js/runtime-main.35c5798d.js.map",
-    "static/js/2.bb393c7b.chunk.js": "/frij-ole.github.io/static/js/2.bb393c7b.chunk.js",
-    "static/js/2.bb393c7b.chunk.js.map": "/frij-ole.github.io/static/js/2.bb393c7b.chunk.js.map",
+    "static/js/2.d78db518.chunk.js": "/frij-ole.github.io/static/js/2.d78db518.chunk.js",
+    "static/js/2.d78db518.chunk.js.map": "/frij-ole.github.io/static/js/2.d78db518.chunk.js.map",
     "index.html": "/frij-ole.github.io/index.html",
-    "static/css/main.65f4b3c3.chunk.css.map": "/frij-ole.github.io/static/css/main.65f4b3c3.chunk.css.map",
-    "static/js/2.bb393c7b.chunk.js.LICENSE.txt": "/frij-ole.github.io/static/js/2.bb393c7b.chunk.js.LICENSE.txt"
+    "static/css/main.db53f7ae.chunk.css.map": "/frij-ole.github.io/static/css/main.db53f7ae.chunk.css.map",
+    "static/js/2.d78db518.chunk.js.LICENSE.txt": "/frij-ole.github.io/static/js/2.d78db518.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.35c5798d.js",
-    "static/js/2.bb393c7b.chunk.js",
-    "static/css/main.65f4b3c3.chunk.css",
-    "static/js/main.01824181.chunk.js"
+    "static/js/2.d78db518.chunk.js",
+    "static/css/main.db53f7ae.chunk.css",
+    "static/js/main.5e1256e9.chunk.js"
   ]
 }
