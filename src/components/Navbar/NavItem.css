@@ -1,0 +1,48 @@
+nav div {
+    border: solid black 3px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 24px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+ 
+nav li {
+    position: relative;
+    text-align: center;
+}
+
+nav li li > div {
+    background-color: grey;
+}
+
+nav li.clickable:hover {
+    transition: 0.3s all;
+    transform: scale(1.1) rotate(5deg);
+}
+
+nav li:hover > ul{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+nav li.odd:hover > ul {
+    right: 0;
+    top: 100%;
+}
+
+nav li.even:hover > ul {
+    right: 100%;
+    top: 0;
+}
+
+nav ul{
+    display: none;
+}
+
+.nav-link {
+    text-decoration: inherit;
+    color: inherit;
+}

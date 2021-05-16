@@ -1,5 +1,6 @@
 import './Navbar.css';
-import Logo from '../Logos/Logo.js'
+import Logo from '../Logos/Logo.js';
+import NavItem from'./NavItem.js';
 import { Link } from 'react-router-dom';
 
 function Navbar(props) {
@@ -10,11 +11,7 @@ function Navbar(props) {
             </Link>
             <ul className="nav-links">
                 {props.items.map(item => 
-                <li className="nav-item">
-                    <Link to={item.route} className="nav-link">
-                        {item.name}
-                    </Link>
-                </li>
+                    <NavItem item={item} depth={1}></NavItem>
                 )}
             </ul>
         </nav>
