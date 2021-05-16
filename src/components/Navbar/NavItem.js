@@ -5,7 +5,7 @@ import './NavItem.css';
 function NavItem(props) {
     
     let evenOdd = null
-    props.depth % 2 == 0 ? evenOdd="even" : evenOdd = "odd";
+    props.depth % 2 === 0 ? evenOdd="even" : evenOdd = "odd";
     let navTitle = null;
     if(props.item.route) {
         navTitle = <Link className="nav-link" to={props.item.route}>{props.item.name}</Link>;
